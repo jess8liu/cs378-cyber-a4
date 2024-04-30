@@ -1,0 +1,3 @@
+[console_scripts]
+agent = agent_package.agent:main
+

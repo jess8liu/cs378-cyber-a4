@@ -1,0 +1,40 @@
+[0.705s] Invoking command in '/home/lukektx/sim_ws/src/agent_package': PYTHONPATH=/home/lukektx/sim_ws/src/agent_package/build/agent_package/prefix_override:/home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/agent_package build --build-base /home/lukektx/sim_ws/src/agent_package/build/agent_package/build install --record /home/lukektx/sim_ws/src/agent_package/build/agent_package/install.log --install-scripts $base/lib/agent_package --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.951s] creating build/agent_package/agent_package.egg-info
+[0.951s] writing build/agent_package/agent_package.egg-info/PKG-INFO
+[0.952s] writing dependency_links to build/agent_package/agent_package.egg-info/dependency_links.txt
+[0.952s] writing entry points to build/agent_package/agent_package.egg-info/entry_points.txt
+[0.952s] writing requirements to build/agent_package/agent_package.egg-info/requires.txt
+[0.952s] writing top-level names to build/agent_package/agent_package.egg-info/top_level.txt
+[0.953s] writing manifest file 'build/agent_package/agent_package.egg-info/SOURCES.txt'
+[0.987s] reading manifest file 'build/agent_package/agent_package.egg-info/SOURCES.txt'
+[0.988s] writing manifest file 'build/agent_package/agent_package.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.989s] running build_py
+[0.989s] creating /home/lukektx/sim_ws/src/agent_package/build/agent_package/build
+[0.989s] creating /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib
+[0.989s] creating /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package
+[0.989s] copying agent_package/drive_controller.py -> /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package
+[0.990s] copying agent_package/__init__.py -> /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package
+[0.990s] copying agent_package/agent.py -> /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package
+[0.990s] running install
+[0.992s] running install_lib
+[0.992s] creating /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package
+[0.993s] copying /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package/drive_controller.py -> /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package
+[0.993s] copying /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package/__init__.py -> /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package
+[0.993s] copying /home/lukektx/sim_ws/src/agent_package/build/agent_package/build/lib/agent_package/agent.py -> /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package
+[0.994s] byte-compiling /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package/drive_controller.py to drive_controller.cpython-38.pyc
+[0.995s] byte-compiling /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package/__init__.py to __init__.cpython-38.pyc
+[0.996s] byte-compiling /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package/agent.py to agent.cpython-38.pyc
+[0.996s] running install_data
+[0.996s] creating /home/lukektx/sim_ws/src/agent_package/install/agent_package/share/ament_index
+[0.996s] creating /home/lukektx/sim_ws/src/agent_package/install/agent_package/share/ament_index/resource_index
+[0.997s] creating /home/lukektx/sim_ws/src/agent_package/install/agent_package/share/ament_index/resource_index/packages
+[0.997s] copying resource/agent_package -> /home/lukektx/sim_ws/src/agent_package/install/agent_package/share/ament_index/resource_index/packages
+[0.997s] copying package.xml -> /home/lukektx/sim_ws/src/agent_package/install/agent_package/share/agent_package
+[0.997s] running install_egg_info
+[0.999s] Copying build/agent_package/agent_package.egg-info to /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages/agent_package-0.0.0-py3.8.egg-info
+[1.001s] running install_scripts
+[1.019s] Installing agent script to /home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/agent_package
+[1.019s] writing list of installed files to '/home/lukektx/sim_ws/src/agent_package/build/agent_package/install.log'
+[1.043s] Invoked command in '/home/lukektx/sim_ws/src/agent_package' returned '0': PYTHONPATH=/home/lukektx/sim_ws/src/agent_package/build/agent_package/prefix_override:/home/lukektx/sim_ws/src/agent_package/install/agent_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/agent_package build --build-base /home/lukektx/sim_ws/src/agent_package/build/agent_package/build install --record /home/lukektx/sim_ws/src/agent_package/build/agent_package/install.log --install-scripts $base/lib/agent_package --single-version-externally-managed install_data
